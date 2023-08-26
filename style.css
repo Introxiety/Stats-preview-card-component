@@ -157,7 +157,7 @@ ul {
   position: relative;
   mix-blend-mode: hard-light;
   opacity: .4;
-  background: hsl(277, 96%, 80%);
+  background: hsl(277, 94%, 79%);
   border-radius: 1em 1em 0 0;
 }
 
@@ -180,8 +180,10 @@ ul {
   .flex-desktop {
     flex-direction: row;
     flex-direction: row-reverse;
-    gap: 3em;
-
+    gap: 3rem;
+  }
+  .pad-xl{
+    padding: 10rem;
   }
 
   .flex-container {
@@ -197,20 +199,21 @@ ul {
   }
 
   .container {
-    max-width: 75rem;
+    max-width: 70rem;
   }
 
   .flex-container img {
-    border-radius: 0 1em 1em 0;
+    border-radius: 0 1rem 1rem 0;
   }
 
   .grid-container {
-    width: 35em;
+    width: 30em;
     text-align: left;
+    padding: 100em;
   }
 
   .pad-1 {
-    padding: 3em;
+    padding: 4rem 4rem 0 4rem;
   }
 
   .color-overlay {
@@ -225,6 +228,10 @@ ul {
   ul {
     display: flex;
     padding: 0;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
+  }
+
+  p{
+    margin-right: 1rem;
   }
 }
