@@ -179,13 +179,13 @@ ul {
   /* Styles for desktop screens (1440px and above with a base font size of 16px) */
   .flex-desktop {
     flex-direction: row;
-    gap: 3rem;
+    gap: 5rem;
   }
 
   .flex-row-reverse{
     flex-direction: row-reverse;
   }
-  
+
   .pad-xl{
     padding: 10rem;
   }
@@ -203,7 +203,8 @@ ul {
   }
 
   .container {
-    max-width: 70rem;
+    max-width: 71rem;
+    gap: 6em;
   }
 
   .flex-container img {
@@ -232,7 +233,7 @@ ul {
   ul {
     display: flex;
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   p{
