@@ -166,6 +166,7 @@ h1{
   .flex-desktop{
     flex-direction: row;
     flex-direction: row-reverse;
+    gap: 3em;
   }
   .flex-container{
     align-items: flex-start;
@@ -178,7 +179,7 @@ h1{
     grid-column: span 3;
   }
   .container{
-    max-width: 65em;
+    max-width: 70em;
   }
   .flex-container img{
     border-radius: 0 1em 1em 0;
@@ -188,10 +189,11 @@ h1{
     text-align: left;
   }
   .pad-1{
-    padding: 3em;
+    padding: 3.5em;
   }
   h1{
-    font-size: 2rem;
+    font-size: 2.2rem;
+    line-height: 1.3;
   }
 }
 
