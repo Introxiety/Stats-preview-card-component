@@ -203,8 +203,8 @@ ul {
   }
 
   .container {
-    max-width: 73rem;
-    gap: 9em;
+    max-width: 76rem;
+    gap: 2em;
   }
 
   .flex-container img {
@@ -212,7 +212,7 @@ ul {
   }
 
   .grid-container {
-    width: 30em;
+    width: 38rem;
     text-align: left;
     padding: 100em;
     gap: 1rem;
@@ -235,7 +235,7 @@ ul {
   ul {
     display: flex;
     padding: 0;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
   }
 
   p{
