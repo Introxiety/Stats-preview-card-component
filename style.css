@@ -179,9 +179,13 @@ ul {
   /* Styles for desktop screens (1440px and above with a base font size of 16px) */
   .flex-desktop {
     flex-direction: row;
-    flex-direction: row-reverse;
     gap: 3rem;
   }
+
+  .flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+  
   .pad-xl{
     padding: 10rem;
   }
