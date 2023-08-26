@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-    <div class="container flex-container gap-1 radius-1 flex-desktop">
+  <main class="container flex-container gap-1 radius-1 flex-desktop">
     <header>
-      <img src="images/image-header-mobile.jpg" alt="mobile-header-image" class="radius-1 filter-violet">
+      <picture class="color-overlay">
+        <source media="min-width:23.44em" srcset="images/image-header-mobile.jpg">
+        <source media="min-width:90em" srcset="images/image-header-desktop.jpg" class="color-overlay">
+        <img src="images/image-header-mobile.jpg" class="color-overlay">
+      </picture>
     </header>
-    <main class="grid-container gap-1 pad-1 grid-template">
+    <div class="grid-container gap-1 pad-1 grid-template">
       <h1 class="grid-col-span-3">Get <span class="color-violet">insights</span> that help your business grow.</h1>
-      <p class="color-grey font-size font-style-inter grid-col-span-3">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      <p class="color-grey font-size font-style-inter grid-col-span-3">Discover the benefits of data analytics and make
+        better decisions regarding revenue, customer
         experience, and overall efficiency.</p>
-      <p class="flex-container uppercase color color-grey"><span class="font-size-large color-white font-style-inter font-weight-700">10k+</span> companies</p>
-      <p class="flex-container uppercase color color-grey"><span class="font-size-large color-white font-style-inter font-weight-700">314</span> templates</p>
-      <p class="flex-container uppercase color color-grey"><span class="font-size-large color-white font-style-inter font-weight-700">12m+</span> queries</p>
-    </main>
-  </div>
+      <ul class="flex-desktop">
+        <li class="flex-container uppercase color color-grey"><span
+            class="font-size-large color-white font-style-inter font-weight-700">10k+</span> companies</li>
+        <li class="flex-container uppercase color color-grey"><span
+            class="font-size-large color-white font-style-inter font-weight-700">314</span> templates</li>
+        <li class="flex-container uppercase color color-grey"><span
+            class="font-size-large color-white font-style-inter font-weight-700">12m+</span> queries</li>
+      </ul>
+    </div>
+  </main>
 
-  
 
-  
+
+
   <script src="app.js"></script>
- 
+
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
